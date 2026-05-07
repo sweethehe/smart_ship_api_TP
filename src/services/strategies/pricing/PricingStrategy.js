@@ -6,7 +6,7 @@ class PricingStrategy {
      * @returns {number} Le prix calculé
      */
     calculate(weight, distance) {
-        throw new Error("La méthode calculate() doit être implémentée par la classe enfant");
+        throw new Error('La méthode calculate() doit être implémentée par la classe enfant');
     }
 }
 

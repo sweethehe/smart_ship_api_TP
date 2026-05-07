@@ -11,7 +11,7 @@ class PricingService {
      */
     calculateQuote(weight, distance, type) {
         if (!weight || !distance) {
-            throw new Error("Le poids et la distance sont obligatoires pour calculer un devis.");
+            throw new Error('Le poids et la distance sont obligatoires pour calculer un devis.');
         }
 
         let strategy;
